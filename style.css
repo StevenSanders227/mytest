@@ -1,0 +1,148 @@
+/*makes the header look nice*/
+.header{
+  font-family: sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color:#437c90;
+  text-decoration:underline;
+  border: 5px double ;
+  border-color:#Ccc5b9;
+}
+/*for the home page all photos to be cohesive*/
+.pages{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px;
+}
+/* for images to be cohesive*/
+img {
+  border: ridge;
+  border-color: #437c90;
+  border-width: 10px;
+  height: 350px;
+  width: 350px;
+  /* background colors*/
+}
+body{
+  background-color: #Fffcf2;
+}
+/*paragraph text color*/
+p{
+  color: #0d0106;
+}
+/* header 1 style*/
+h1{
+  color:#437c90;
+  text-align: center
+}
+/* smallest header style*/
+h3{
+  color:#61707d;
+  text-align: center
+}
+/*tortelini soup picture*/
+.soup2{
+  float: right;
+  justify-content: space-around;
+  width: 800px;
+  height: 800px;
+
+
+}
+/* medidum header style*/
+h2{
+  text-align: center;
+  color:#61707d;
+
+}
+/*header buttons*/
+.buttons {
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+  background-color: #437c90;
+}
+/*for tabbing through without mouse*/
+.buttons:focus {
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px #5a01a7;
+  transition: 0.7s}
+
+/*Main Header(Gumbo)*/
+.header-1 {
+  font-size: 48px;
+  margin: 50px;
+  margin-left: 250px;
+}
+
+
+/*Paragragh Text/Font*/
+.text {
+  color: #9dcaca;
+  background: rgba(19, 19, 20, 0.5);
+  width: 700px;
+  border-radius: 0 25px;
+  margin: 10px;
+  font-size: 24px;
+}
+.text-2 {
+  color: #9dcaca;
+  background: rgba(19, 19, 20, 0.5);
+  width: 700px;
+  border-radius: 0 25px;
+  margin: 10px;
+  font-size: 32px;
+}
+
+
+
+/*Gumbo Image*/
+.gumbo {
+  float: right;
+  margin: 5px; 
+  width: 350px;
+  width: 350px;
+  border-radius: 25px;
+  border-width: thin;
+}
+
+
+/*Roux Image*/
+.roux {
+  font-style: italic;
+  color: color: grey;
+  width: 300px;
+  border-width: thin;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 16px;
+  margin: 10px;
+}
+.roux-2 {
+  float: right;
+  width: 250px;
+  border-width: thin;
+  margin: 10px;
+}
+
+
+/*Copyright*/
+.copyright {
+  font-style: italic;
+  color: gray;
+  text-align:left; 
+}
+.copyright-2 {
+  font-style: italic;
+  color: gray;
+  text-align: left;
+  font-size: 16px;
+}
